@@ -1,2 +1,2 @@
 # LoRA_Finetuning
-Finetuning a pre-trained model on a different dataset with LoRA
+This project creates a Sentiment Analysis model and loads the pre-trained weights that are trained on the AGNews dataset. Then the model is fine-tuned by adapting on the IMDB dataset with LoRA matrices. The original model layers are frozen and only the LoRA matrices are updated during training. Finally, how much the model improved after LoRA fine tuning is monitored and visualized.
